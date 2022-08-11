@@ -94,8 +94,6 @@ body, html {
   img{
     width: 30em;
     height: 20em;
-    max-width: 30em;
-    max-height: 20em;
     border-radius: 15px;
     box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
     object-fit: cover;

@@ -21,7 +21,7 @@ body, html {
   main.animated {
     opacity: 0;
     filter: blur(10px);
-    transition: opacity 2s ease-in-out, filter 2s ease-in-out;   
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
   }  
   
   header {
@@ -67,7 +67,7 @@ body, html {
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
     border-radius: 10em;
     margin: 1.4em 0;
-    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px; 
   }
   
   ul > li > a {
@@ -84,3 +84,25 @@ body, html {
     text-decoration: none;
   }
   
+  div{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    padding: 30px 0;
+  }
+
+  img{
+    width: 30em;
+    height: 20em;
+    max-width: 30em;
+    max-height: 20em;
+    border-radius: 15px;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+    object-fit:cover;
+    object-position: center;
+    margin: 1em;
+  }
+
+  img:hover{
+    transform: scale(1.1)
+  }
